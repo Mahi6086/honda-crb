@@ -14,7 +14,7 @@
     <title>Honda CRB</title>
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
     <!--*hearder part start* -->
 
     <header style="background-color: #264653;">
@@ -66,13 +66,13 @@
             <p class="text-danger h6">Best bike collection</p>
             <div class="row g-5 mt-5 p-3 ">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 ">
-                    <img class="w-75" src="images/feature-bike.jpg" alt="">
-                </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                     <img class="w-75" style="filter: grayscale(1);" src="images/feature-bike.jpg" alt="">
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                     <img class="w-75" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <img class="w-75" style="filter: grayscale(1);" src="images/feature-bike.jpg" alt="">
                 </div>
 
             </div>
@@ -233,9 +233,138 @@
 
         </section>
         <!--****Question Part End****-->
+        <hr class="mx-5 fw-bold">
+
+        <!-- On Sale Weekend Start-->
+        <section class="container ">
+            <h1 class="fw-bold fs-1 my-3 text-center ">On Sale This<span style="color: coral;"> Week</span></h1>
+            <div class="rounded-3 my-5" style="background-color: #FFFBF0; width: 100%; height: 100%;">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row row-cols-1 d-flex align-items-center p-5">
+                                <div class="col-lg-7 col-md-7 col-sm-7 col-5">
+                                    <h1 class="fw-bold">Apache RR 310
+                                    </h1>
+                                    <p class="text-muted">Apache RR310 is a sports bike.It is available in only 1 variant and 2 colours. The TVS Apache RR310 is powered by 312.2cc BS6 engine which develops a power of 33.52 bhp and a torque of 27.3 Nm. With both front and rear
+                                        disc brakes, TVS Apache RR310 comes up with anti-locking braking system. This Apache RR310 bike weighs 174 kg and has a fuel tank capacity of 11 liters.
+
+                                    </p>
+                                    <h2 style="color:  #FF136F;">$4900</h2>
+                                    <button style="background-color:  coral" class="text-white px-3 py-2 border-0 rounded-3">Purchse</button>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-sm-5 col-7">
+                                    <img src="images/bike-04.png" class="d-block w-100 img-fluid " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row d-flex align-items-center p-5">
+                                <div class="col-lg-7 col-md-7 col-sm-7 col-5">
+                                    <h1 class="fw-bold">TVS iQube Electric
+                                    </h1>
+                                    <p class="text-muted">The TVS iQube Electric is powered by a 4.4kW electric hub motor and a set of 2.25kWh li-ion batteries that propel the e-scooter to a claimed top speed of 78kmph. It can travel up to 75km on a full charge. It's quick
+                                        too, bolting from 0 to 40kmph in 4.2 seconds. Although, the scooter is restricted to a top speed of 40kmph in Eco mode. The iQube weighs in at 118kg (kerb).
+
+                                    </p>
+                                    <h2 style="color:  #FF136F;">$4200</h2>
+                                    <button style="background-color:  coral" class="text-white px-lg-3 py-lg-2 border-0 rounded-3">Purchase</button>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-sm-5 col-7">
+                                    <img src="images/banner-bike.png" class="d-block w-100 img-fluid" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row d-flex align-items-center p-5">
+                                <div class="col-lg-7 col-md-7 col-sm-7 col-5">
+                                    <h1 class="fw-bold">Yamaha YZF R15
+                                    </h1>
+                                    <p class="text-muted">The original supersport is back! Born of Yamaha’s racing DNA that shaped legends like M1, The R1 and the R-series, the all-new YZF R15 powered with Dual Channel ABS is max powerhouse of 18.6 PS that brings track experience
+                                        to the streets.
+                                    </p>
+                                    <h2 style="color: #FF136F; ">$5,900</h2>
+                                    <button style="background-color:  coral;" class="text-white px-3 py-2 border-0 rounded-3">Purchase</button>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-sm-5 col-7">
+                                    <img src="images/feature-bike_prev_ui.png" class="d-block w-100 img-fluid p-lg-5" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                       <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   <span class="visually-hidden">Next</span>
+                   </button>
+                </div>
+            </div>
+
+        </section>
+        <!-- On Sale Weekend End-->
+
 
     </main>
-    <footer>
+    <br>
+    <!-- Get in Touch part -->
+
+    <footer class="my-5">
+        <section class="container rounded-3 mb-5" style="background-color: #FFFBF0; height: 100%">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="p-5">
+                    <div>
+                        <h2 style="font-variant: small-caps;" class="fw-bold">LET'S STAY <span style="color: coral;">IN TOUCH</span></h2>
+                        <p class="text-muted fw-bold">Get updates on sales, specials and more
+                        </p>
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputText" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" aria-label="Full Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <!-- <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"> -->
+                            <div class="col-auto">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                            </div>
+                            <div class="col-auto">
+                                <span id="passwordHelpInline" class="form-text">
+                                  Must be 8-20 characters long.
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputText" class="form-label">Comment</label>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Give your opinion</label>
+                            </div>
+
+                        </div>
+
+                        <button style="background-color:  coral;" class="text-white px-4 py-2 border-0 rounded-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Get in Touch End part -->
+        <p class="text-center text-muted">©2021. Honda CRB. All rights reserved. Sofia, Bulgaria.
 
     </footer>
     <!-- script style  -->
